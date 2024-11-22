@@ -1,0 +1,411 @@
+@charset "UTF-8";
+body  {
+    margin: 0;
+    background-image: url("bg.gif");
+	min-height: 132px;
+    background-size: 100% 210%;
+    font-family: "interstate-compressed", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+wrapper {
+    width: 1366px;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: #FBFBFB;	
+}
+header {
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "interstate-compressed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    display: inline-block;
+}
+
+main {
+    height: 750px;
+  
+}
+footer {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+.homebutton h1 {
+    padding-bottom: 2px;
+    margin-top: 73px;
+    margin-right: 82px;
+    margin-left: 52px;
+    margin-bottom: 82px;
+}
+
+.spotify{
+    margin-left: 255px;
+    top: 800px;
+    display: inline-block;
+    float: right;
+    margin-top: 53px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.photos{
+    margin-bottom: 252px;
+}
+ 
+
+.future1, .future2, .future3, .future4, .future5, .future6 , .future7, .future8, .future9, .future10, .future11, .future12, .future13{
+    height: 218px;
+    width: auto;
+    margin-left: 16px;
+    margin-right: 85px;
+    margin-bottom: 16px;
+}
+
+.future1:hover, .future2:hover, .future3:hover, .future4:hover, .future5:hover, .future6:hover , .future7:hover, .future8:hover, .future9:hover, .future10:hover, .future11:hover, .future12:hover, .future13:hover{
+    transform: scale(1.5);
+    background-color: hsla(0,0%,100%,1.00);
+    -webkit-box-shadow: 0px 0px 40px;
+    box-shadow: 0px 0px 40px;
+}
+.news p {
+    font-size: 60px;
+}
+.news img {
+    opacity: 0.66;    
+}
+.newsimg2{
+    float: right;
+    margin-top: -322px;
+    margin-bottom: 155px;
+    padding-top: 0px;
+    padding-right: 67px;
+}
+.newsimg3{
+    margin-top: 146px;
+    padding-top: 0px;
+}
+
+.newsimg4{
+    float: right;
+    padding-top: 0px;
+    margin-top: -356px;
+    margin-right: 14px;
+}
+
+.news1 {
+    border-width: thick;
+    display: block;
+    padding-left: 4px;
+    margin-right: 758px;
+    margin-top: -315px;
+    padding-top: 28px;
+    padding-right: 141px;
+}
+.news2 {
+    padding-left: 670px;
+    margin-right: 29px;
+    padding-top: 0px;
+    margin-top: -178px;
+    margin-bottom: -78px;
+}
+.news3 {
+    margin-left: 13px;
+    margin-top: -149px;
+    padding-left: 0px;
+    margin-right: 730px;
+}
+.news4 {
+    border-width: thick;
+    margin-left: 704px;
+    margin-top: -218px;
+}
+.news{
+    margin-top: 38px;
+    margin-right: 38px;
+    margin-bottom: 38px;
+    margin-left: 38px;
+}
+
+.news:hover p:hover{
+    text-decoration: underline;	
+}
+
+.vids{
+    margin-bottom: 40px;	
+}
+.video{
+    text-align: center;
+   }
+.video p{
+    letter-spacing: 10px;
+    padding-top: 0px;
+    margin-top: -8px;
+    font-size: 19px;
+}
+.v1:hover, .v2:hover, .v3:hover{
+    transform: scale(1.5);
+    background-color: hsla(0,0%,100%,1.00);
+    -webkit-box-shadow: 0px 0px 40px;
+    box-shadow: 0px 0px 40px;
+}
+
+.concertlist{
+    text-align: center;
+    float: left;
+    font-size: 23px;
+    margin-top: 31px;
+    margin-left: 117px;
+}
+
+.concerts img{
+    margin-left: 154px;
+    margin-bottom: 40px;
+    height: 311px;
+    width: 595px;
+    margin-top: 39px;
+}
+
+.tourvid{
+    margin-left: 156px;
+}
+
+.mailings form {
+    border: 3px solid #f1f1f1;
+    color: hsla(0,0%,0%,1.00);  
+}
+
+.mailings .container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.mailings input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.mailings input[type=checkbox] {
+  margin-top: 16px;
+}
+
+.mailings input[type=submit] {
+    color: white;
+    border: none;
+    background-color: hsla(0,0%,28%,1.00);
+	font-size: 20px;
+}
+
+.mailings input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.blogs div.gallery {
+    margin-top: 185px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 309px;
+}
+
+.blogs div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.blogs div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.blogs div.desc {
+  padding: 15px;
+  text-align: center;
+	font-size: 25px;
+}
+
+.merch{
+    margin-bottom: 210px;
+}
+
+.merch *{
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.merch .product{
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1)
+}
+
+.merch body{
+	width: 100%;
+	padding: 120px;
+}
+
+.merch .main_container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap:30px;
+}
+
+.merch .product img{
+	width: 100%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.merch .product_desc{
+	text-align: center;
+	padding: 20px;
+}
+
+.merch .product_desc h3{
+	font-size: 24px;
+}
+
+.merch .product_desc p{
+	font-size: 18px;
+}
+
+  .merch .figure {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+  }
+  .merch .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .merch .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+
+.store{
+    margin-bottom: 210px;
+}
+
+.store *{
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.store .product{
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1)
+}
+
+.store body{
+	width: 100%;
+	padding: 120px;
+}
+
+.store .main_container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap:30px;
+}
+
+.store .product img{
+	width: 100%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.store .product_desc{
+	text-align: center;
+	padding: 20px;
+}
+
+.store .product_desc h3{
+	font-size: 24px;
+}
+
+.store .product_desc p{
+	font-size: 18px;
+}
+
+  .store .figure {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+  }
+  .store .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .store .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
